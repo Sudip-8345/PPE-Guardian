@@ -66,14 +66,14 @@ dataset = version.download("yolov8")
 ## Application Demo
 
 ### Real-Time Detection
-![PPE Guardian Demo](assets/demo.png)
+![PPE Guardian Demo](asssets/demo.png)
 
 ### Training Metrics (YOLOv8 Learning Curves)
-![Training Metrics](assets/results.png)
+![Training Metrics](asssets/results.png)
 
 ### Dataset Class Distribution & Label Visualization
-![Dataset Stats](assets/labels.png)
+![Dataset Stats](asssets/labels.png)
 
 ### Confusion Matrix
-![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix](asssets/confusion_matrix.png)
 
