@@ -62,3 +62,18 @@ rf = Roboflow(api_key="YOUR_API_KEY")
 project = rf.workspace("pram").project("ppe-detection-z3v2w")
 version = project.version(2)
 dataset = version.download("yolov8")
+
+## Application Demo
+
+### Real-Time Detection
+![PPE Guardian Demo](assets/demo.png)
+
+### Training Metrics (YOLOv8 Learning Curves)
+![Training Metrics](assets/results.png)
+
+### Dataset Class Distribution & Label Visualization
+![Dataset Stats](assets/labels.png)
+
+### Confusion Matrix
+![Confusion Matrix](assets/confusion_matrix.png)
+
