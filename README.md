@@ -66,14 +66,14 @@ dataset = version.download("yolov8")
 ## Application Demo
 
 ### Real-Time Detection
-![PPE Guardian Demo](https://raw.githubusercontent.com/Sudip-8345/PPE-Guardian/main/asssets/demo.png)
+![PPE Guardian Demo](https://github.com/Sudip-8345/PPE-Guardian/blob/e4f871328c0631fef4e83dacbdcc542082ebccd2/assests/demo.png)
 
 ### Training Metrics (YOLOv8 Learning Curves)
-![Training Metrics](https://raw.githubusercontent.com/Sudip-8345/PPE-Guardian/main/asssets/results.png)
+![Training Metrics](https://github.com/Sudip-8345/PPE-Guardian/blob/c278855af74b3be04562e9c5de49802eba45ba40/assests/results.png)
 
 ### Dataset Class Distribution & Label Visualization
-![Dataset Stats](https://raw.githubusercontent.com/Sudip-8345/PPE-Guardian/main/asssets/labels.jpg)
+![Dataset Stats](https://github.com/Sudip-8345/PPE-Guardian/blob/c278855af74b3be04562e9c5de49802eba45ba40/assests/labels.jpg)
 
 ### Confusion Matrix
-![Confusion Matrix](https://raw.githubusercontent.com/Sudip-8345/PPE-Guardian/main/asssets/confusion_matrix.png)
+![Confusion Matrix](https://github.com/Sudip-8345/PPE-Guardian/blob/c278855af74b3be04562e9c5de49802eba45ba40/assests/confusion_matrix.png)
 
