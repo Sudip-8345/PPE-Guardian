@@ -1,0 +1,10 @@
+project_name: "PPE Guardian"
+model_path_pt: "models/best.pt"      # after training
+model_path_onnx: "models/best.onnx"  # after export
+imgsz: 640
+conf: 0.5
+iou: 0.5
+device: 0
+tracker: "bytetrack.yaml"            # Ultralytics tracker config (internal)
+save_annotated_video: true
+save_dir: "logs/runs"

@@ -1,0 +1,2 @@
+# You can keep this minimal; Ultralytics has default bytetrack.yaml built-in.
+tracker_type: bytetrack

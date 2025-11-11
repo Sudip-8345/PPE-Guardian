@@ -1,0 +1,23 @@
+# Classes you’ll get from PRAM dataset (v2):
+# ["Hardhat", "Person", "Safety_Boots", "Safety_Gloves", "Safety_Mask", "Safety_Vest"]
+raw_to_canonical:
+  Hardhat: helmet
+  Person: person
+  Safety_Boots: boots
+  Safety_Gloves: gloves
+  Safety_Mask: mask
+  Safety_Vest: vest
+
+canonical_order: ["person", "helmet", "vest", "gloves", "boots", "mask"]
+
+required_ppe: 
+  helmet: true
+  vest:   true
+  gloves: false
+  boots:  false
+  mask:   false
+
+association:
+  method: "hungarian"   # or "nearest" / "iou"
+  iou_threshold: 0.05
+  center_threshold: 0.5
