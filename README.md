@@ -62,7 +62,7 @@ rf = Roboflow(api_key="YOUR_API_KEY")
 project = rf.workspace("pram").project("ppe-detection-z3v2w")
 version = project.version(2)
 dataset = version.download("yolov8")
-
+```
 ## Application Demo
 
 ### Real-Time Detection
